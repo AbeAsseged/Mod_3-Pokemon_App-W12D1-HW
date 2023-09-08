@@ -9,7 +9,9 @@ app.get("/", (req, res) =>{
     res.send(<h1> Welcome to the pokemon App! </h1>)
 })
 
-
+app.get('/pokemon', (res, req) => {
+    res.send(pokemon)
+})
 
 app.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`);
