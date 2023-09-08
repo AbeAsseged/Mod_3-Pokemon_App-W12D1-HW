@@ -10,7 +10,12 @@ const myStyle = {
         render(){
         return (
           <div style={myStyle}>
-            <h1>See All The Pokemon!</h1>
+            <h1>Catch Your Pokemon!</h1>
+            
+        <ul>
+            fruits.map(fruit, i) 
+        </ul>
+
             </div>
         )};
 
