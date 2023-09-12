@@ -11,7 +11,7 @@ class Show extends React.Component {
         <h2>
         <li key={i}>
                   The{' '}
-                    <a href={`/fruits/${i}`}>
+                    <a href={`/pokemon/${i}`}>
                       {pokemon.name}
                     </a>
         </li>
