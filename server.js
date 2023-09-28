@@ -15,6 +15,15 @@ mongoose.connection.once('open', () => {
 });
 
 
+const jsxViewEngine = require('jsx-view-engine');
+const Pokemon = require('./models/pokemon');
+
+
+
+app.set('view engine', 'jsx');
+app.set('views', './views');
+app.engine('jsx', jsxViewEngine());
+
 
 // Index
 app.get('/pokemon', async (req, res) => {

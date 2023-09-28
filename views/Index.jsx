@@ -16,7 +16,6 @@ class Index extends React.Component {
               return (
                 <li key={i}>
                   The{' '}
-                  {/* <a href={`/fruits/${pokemon._id}`}>  */}
                     <a href={`/pokemon/${i}`}> for w/out mongoDb W12D1-2 not for for W12D3
                       {pokemon.name}
                     </a>
